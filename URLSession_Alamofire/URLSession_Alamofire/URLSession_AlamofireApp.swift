@@ -11,7 +11,7 @@ import SwiftUI
 struct URLSession_AlamofireApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FirestView()
         }
     }
 }
