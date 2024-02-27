@@ -8,8 +8,29 @@
 import SwiftUI
 
 struct AlamofireView: View {
+    @StateObject private var viewModel = AlamofireViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        List(viewModel.randomUsers) { user in
+            VStack(alignment: .leading) {
+                Text(user.name.full)
+                    .font(.headline)
+                Text(user.email)
+                    .font(.subheadline)
+            }
+        }
+        .navigationTitle("Random Users")
+        .navigationBarTitleDisplayMode(.large)
+        .onAppear {
+            viewModel.getUser()
+        }
+        .overlay {
+            if viewModel.isLoading {
+                ProgressView("Loading...")
+            }
+        }
+        
     }
 }
 

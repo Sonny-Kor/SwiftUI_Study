@@ -8,7 +8,7 @@
 import Foundation
 import Alamofire
 
-final class NerworkServiceAF {
+final class NetworkServiceAF {
     func load<T: Decodable>(_ resource : Resource<T>, completion: @escaping (Result<T, Error>) -> Void) {
         AF.request(resource.urlRequest!)
             .validate()

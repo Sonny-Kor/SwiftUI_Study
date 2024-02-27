@@ -23,6 +23,7 @@
 		16FEA5612B8E0C7200950AAC /* URLSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEA5602B8E0C7200950AAC /* URLSessionView.swift */; };
 		16FEA5632B8E0C7B00950AAC /* AlamofireView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEA5622B8E0C7B00950AAC /* AlamofireView.swift */; };
 		16FEA5652B8E12AF00950AAC /* URLSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEA5642B8E12AF00950AAC /* URLSessionViewModel.swift */; };
+		16FEA5672B8E306500950AAC /* AlamofireViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FEA5662B8E306500950AAC /* AlamofireViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		16FEA5602B8E0C7200950AAC /* URLSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionView.swift; sourceTree = "<group>"; };
 		16FEA5622B8E0C7B00950AAC /* AlamofireView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireView.swift; sourceTree = "<group>"; };
 		16FEA5642B8E12AF00950AAC /* URLSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewModel.swift; sourceTree = "<group>"; };
+		16FEA5662B8E306500950AAC /* AlamofireViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				16FEA5602B8E0C7200950AAC /* URLSessionView.swift */,
 				16FEA5642B8E12AF00950AAC /* URLSessionViewModel.swift */,
 				16FEA5622B8E0C7B00950AAC /* AlamofireView.swift */,
+				16FEA5662B8E306500950AAC /* AlamofireViewModel.swift */,
 			);
 			path = URLSession_Alamofire;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				16FEA5292B8CBF5B00950AAC /* FirestView.swift in Sources */,
 				16FEA5632B8E0C7B00950AAC /* AlamofireView.swift in Sources */,
 				16FEA55A2B8CD7E200950AAC /* Resource.swift in Sources */,
+				16FEA5672B8E306500950AAC /* AlamofireViewModel.swift in Sources */,
 				16FEA5542B8CC74700950AAC /* UserModel.swift in Sources */,
 				16FEA5272B8CBF5B00950AAC /* URLSession_AlamofireApp.swift in Sources */,
 			);
