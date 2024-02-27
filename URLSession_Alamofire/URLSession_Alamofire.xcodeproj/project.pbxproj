@@ -116,15 +116,13 @@
 			children = (
 				16FEA5262B8CBF5B00950AAC /* URLSession_AlamofireApp.swift */,
 				16FEA5282B8CBF5B00950AAC /* FirestView.swift */,
-				16FEA5532B8CC74700950AAC /* UserModel.swift */,
-				16FEA5552B8CD09600950AAC /* ListView.swift */,
+				16FEA56A2B8E34E500950AAC /* Model */,
+				16FEA56B2B8E34F200950AAC /* Component */,
 				16FEA52A2B8CBF5D00950AAC /* Assets.xcassets */,
 				16FEA52C2B8CBF5D00950AAC /* Preview Content */,
 				16FEA55B2B8CDD6C00950AAC /* Network */,
-				16FEA5602B8E0C7200950AAC /* URLSessionView.swift */,
-				16FEA5642B8E12AF00950AAC /* URLSessionViewModel.swift */,
-				16FEA5622B8E0C7B00950AAC /* AlamofireView.swift */,
-				16FEA5662B8E306500950AAC /* AlamofireViewModel.swift */,
+				16FEA5682B8E34CF00950AAC /* View */,
+				16FEA5692B8E34D700950AAC /* ViewModel */,
 			);
 			path = URLSession_Alamofire;
 			sourceTree = "<group>";
@@ -162,6 +160,40 @@
 				16FEA5592B8CD7E200950AAC /* Resource.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		16FEA5682B8E34CF00950AAC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				16FEA5602B8E0C7200950AAC /* URLSessionView.swift */,
+				16FEA5622B8E0C7B00950AAC /* AlamofireView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		16FEA5692B8E34D700950AAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				16FEA5642B8E12AF00950AAC /* URLSessionViewModel.swift */,
+				16FEA5662B8E306500950AAC /* AlamofireViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		16FEA56A2B8E34E500950AAC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				16FEA5532B8CC74700950AAC /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16FEA56B2B8E34F200950AAC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				16FEA5552B8CD09600950AAC /* ListView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
